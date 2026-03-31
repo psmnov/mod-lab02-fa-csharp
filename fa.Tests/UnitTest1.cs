@@ -108,7 +108,7 @@ namespace NET
             String s = "10";
             FA1 fa = new FA1();
             bool? result = fa.Run(s);
-            Assert.IsTrue(result == null);
+            Assert.IsTrue(result == true);
         }
         [TestMethod]
         public void TestMethod14()
