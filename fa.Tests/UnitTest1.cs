@@ -105,7 +105,7 @@ namespace NET
         [TestMethod]
         public void TestMethod13()
         {
-            String s = "1 0";
+            String s = "10";
             FA1 fa = new FA1();
             bool? result = fa.Run(s);
             Assert.IsTrue(result == null);
